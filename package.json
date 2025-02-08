@@ -1,9 +1,12 @@
 {
-  "name": "vite-react-typescript-starter",
+  "homepage": "https://DANISHQUDOOS-895/github.io/birthday_00101",
+  "name": "birthday_00101",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "npm run build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
